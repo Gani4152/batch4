@@ -1,0 +1,29 @@
+Login AWS Account
+Search RDS ---> Create database --> Select Mysql-->select mysql version as 8.0.28 --> 
+select free tier --> give database name 
+Master name : admin
+Password : AceAdmin
+confirm password: AceAdmin
+
+Select Security group (port 3306 should be open)
+create 
+
+select database --> copy the endpoint for connecting purpose 
+
+login into Ec2 --> install mysql 
+yum install mysql 
+
+mysql -u admin -h database-2.cuy8bfhrqgcq.ap-south-1.rds.amazonaws.com -p 
+
+mysql -u admin -h database-3.cuy8bfhrqgcq.ap-south-1.rds.amazonaws.com -p
+Password: AceAdmin
+
+
+mysql -u admin -h database-1.cm9vdckqkxev.ap-south-1.rds.amazonaws.com -p 
+
+Password: AceAdmin
+
+
+
+
+
